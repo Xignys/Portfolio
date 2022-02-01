@@ -1,0 +1,42 @@
+body {
+  margin: 5% 10% 0% 10%;
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 10% auto auto;
+  grid-template-areas: 
+    "header navbar"
+    "header article"
+    ". article";
+  gap: 10px;
+  background-image: url(../img/background-img.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed;
+  color: #3B3D3C; 
+}
+
+header {
+  grid-area: header;
+  display: inline-block;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+  color: #3B3D3C;
+}
+
+.image-profile {
+  width: 100%;
+}
+
+
+
+
+/*div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+  color: white;
+}*/
